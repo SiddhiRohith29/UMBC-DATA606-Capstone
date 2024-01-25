@@ -1,5 +1,5 @@
 # Siddhidhatri Rohith Reddy Jaggari
-
+![Headshot](C:\Users\siddh\Desktop\photos\mainpic.jpg)
 - **Phone:** +1 667 910 1957
 - **Email:** siddhirohith.jaggari@gmail.com
 - **LinkedIn:** [Siddhidhatri Rohith Reddy Jaggari](https://www.linkedin.com/in/siddhidhatri-rohith-reddy-jaggari-a4aa42183/)
