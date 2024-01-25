@@ -1,5 +1,5 @@
 # Siddhidhatri Rohith Reddy Jaggari
-![Headshot](C:\Users\siddh\Desktop\photos\mainpic.jpg)
+![Headshot]("C:\Users\siddh\Documents\GitHub\UMBC-DATA606-Capstone\docs\mainpic.JPG")
 - **Phone:** +1 667 910 1957
 - **Email:** siddhirohith.jaggari@gmail.com
 - **LinkedIn:** [Siddhidhatri Rohith Reddy Jaggari](https://www.linkedin.com/in/siddhidhatri-rohith-reddy-jaggari-a4aa42183/)
