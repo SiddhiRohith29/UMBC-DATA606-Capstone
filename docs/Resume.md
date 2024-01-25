@@ -44,18 +44,19 @@
 
 ## PROJECTS
 
-### Newsletter Machine Learning Project (Jan 2023 - Mar 2023)
+### Newsletter Machine Learning Project (Jan 2023 - Mar 2023) 
+   (https://github.com/SiddhiRohith29/data602/blob/main/final%20proj/602%20final.ipynb)
 
 - Streamlined a dataset with 12 distinct values in the target category, improving business outcomes.
 - Improved machine learning model accuracy by 15% using techniques like SimpleImputer, OneHotEncoder, and cross-validation.
 
 ### Twitter Sentimental Analysis Using Big data (Feb 2023 - Mar 2023)
-
+   (https://github.com/SiddhiRohith29/Twitter_sentimental_analysis_BigData_Project/blob/main/Code/DATA603_project%20%20(2).ipynb)
 - Developed predictive models for major companies, integrating financial market data with sentiment analysis.
 - Achieved an outstanding 85% accuracy in sentiment analysis of Twitter data.
 
 ### Comparison and Analysis on Google Play store and Apple App store (Sep 2022 - Dec 2022)
-
+   (https://github.com/SiddhiRohith29/googleplay_appleapps_merge_analysis/blob/main/finalproj601.ipynb)
 - Merged and cleaned Google Play Store and Apple App Store datasets, demonstrating strong data preprocessing skills.
 - Delivered valuable market insights through comprehensive analysis of a 3.4 million-entry dataset.
 
