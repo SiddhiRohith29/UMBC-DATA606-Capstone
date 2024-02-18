@@ -70,3 +70,8 @@ By addressing these objectives, the airline aims to tailor its services to bette
 
 - **Target Variable(s)** - Satisfaction
 - The remaining columns are predictors
+
+### Checking Target Variable is Balanced or not
+<img src="https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/docs/newplot.png" alt="Headshot" width="150" height="150">
+
+- I want to implement SMOTE Technique for balancing target variable.
