@@ -14,16 +14,12 @@ The objective is to analyze this dataset and extract actionable insights to enha
 2. Identifying factors influencing customer satisfaction, such as onboard service quality, cleanliness, food and drink options, in-flight entertainment, and Wi-Fi service.
 3. Investigating the impact of flight delays on customer satisfaction.
 4. Assessing the relationship between satisfaction and factors like class, type of travel, and flight distance.
-5. Developing recommendations for improving overall customer satisfaction based on the analysis.
-
-By addressing these objectives, the airline aims to tailor its services to better meet customer expectations and enhance their overall flying experience.
 
 ### Potential Real-world applications
 1. **Airline Service Improvement:** Airlines can use the insights from this dataset to enhance various aspects of their services such as onboard service quality, cleanliness, food and drink options, in-flight entertainment, and Wi-Fi service to improve overall customer satisfaction.
 2. **Customer Segmentation:** Airlines can segment their customers based on demographics and travel preferences to offer personalized services and targeted marketing campaigns.
 3. **Operational Efficiency:** Understanding the impact of flight delays on customer satisfaction can help airlines optimize their flight schedules, improve punctuality, and minimize disruptions.
 4. **Marketing and Pricing Strategies:** By assessing the relationship between satisfaction and factors like class, type of travel, and flight distance, airlines can refine their marketing strategies and pricing models to attract more customers and increase revenue.
-5. **Competitive Analysis:** Airlines can benchmark their performance against competitors in terms of customer satisfaction and service quality to identify areas for improvement and maintain a competitive edge in the market.
 
 ### Research Questions
 1. What are the key demographic factors influencing customer satisfaction in the airline industry?
