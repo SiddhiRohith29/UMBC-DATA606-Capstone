@@ -6,7 +6,7 @@ import requests
 
 def load_model():
     # Ensure the link points directly to the raw content on GitHub
-    url = 'https://github.com/priyanka903/UMBC-DATA606-Capstone/raw/main/app/saved_steps.pkl'
+    url = 'https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/app/best_model1.pkl'
 
     # Send a GET request to the GitHub URL
     response = requests.get(url)
@@ -25,31 +25,28 @@ regressor = data["model"]
 
 def show_predict_page():
     
-    st.title("Fraud Transaction Prediction")
-    st.write("""### We need some information to predict the transaction""")
+    st.title("Airline Satisfaction System")
+    st.write("""### We need ratings of services to predict the satisfaction""")
 
     # Collect inputs as strings
-    user_input_step = st.text_input("Enter step number349, 28366.71, 31110.0, 2743.29, 359900.5, 388267.21, 0", key="input_step")
-    user_input_amount = st.text_input("Enter amount", key="input_amount")
-    user_input_oldbalanceOrig = st.text_input("Enter old balance origin", key="input_oldbalanceOrig")
-    user_input_newbalanceOrig = st.text_input("Enter new balance origin", key="input_newbalanceOrig")
-    user_input_oldbalanceDest = st.text_input("Enter old balance destination", key="input_oldbalanceDest")
-    user_input_newbalanceDest = st.text_input("Enter new balance destination", key="input_newbalanceDest")
-    user_input_isFlaggedFraud = st.text_input("Enter if transaction is flagged as fraud (0 or 1)", key="input_isFlaggedFraud")
+    user_input_cleanliness = st.text_input("Rate Cleanliness (1-5)", key="input_cleanrate")
+    user_input_foodanddrink = st.text_input("Rate Food and Drink (1-5)", key="input_fooddrinkrate")
+    user_input_onlineboarding = st.text_input("Rate Online Boarding (1-5)", key="input_onlineboardrate")
+    user_input_wifiservice = st.text_input("Rate In-flight Wifi Service (1-5)", key="input_wifiservice")
+    user_input_seatcomfort = st.text_input("Rate Seat Comfort (1-5)", key="input_seatcomfort")
 
-    ok = st.button("Predict Transaction")
+    ok = st.button("Predict Satisfaction")
     if ok:
         try:
-            # Convert inputs to float
-            X = np.array([[float(user_input_step), float(user_input_amount), float(user_input_oldbalanceOrig),
-                           float(user_input_newbalanceOrig), float(user_input_oldbalanceDest),
-                           float(user_input_newbalanceDest), float(user_input_isFlaggedFraud)]])
+            # Convert inputs to Integer
+            X = np.array([[int(user_input_cleanliness), int(user_input_foodanddrink), int(user_input_onlineboarding),
+                           int(user_input_wifiservice), int(user_input_seatcomfort)]])
             
             # Predict
             Identified = regressor.predict(X)
-            st.subheader(f"Transaction is {'Fraud' if Identified[0] else 'Not Fraud'}")
+            st.subheader(f"Service is {'Satisfied' if Identified[0] else 'Neutral or Dissatisfied'}")
         except ValueError as e:
-            st.error("Please enter valid numeric inputs. Error: " + str(e))
+            st.error("Please enter valid inputs. Error: " + str(e))
             
 
 show_predict_page()
