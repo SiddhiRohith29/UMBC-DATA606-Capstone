@@ -5,7 +5,7 @@
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - GitHub - <a href="https://github.com/SiddhiRohith29/" target="_blank"> Siddhi GitHub </a>
 - LinkedIn - <a href="https://www.linkedin.com/in/siddhidhatri-rohith-reddy-jaggari-a4aa42183/" target="_blank"> Siddhidhatri Rohith LinkedIn </a>
-
+- Powerpoint Presentation - https://docs.google.com/presentation/d/1D2ZD5IGPQSVOYRwgnUr_8oNiw0O5a9qA/edit#slide=id.p1
 ## Background
 ### Problem Statement
 The objective is to analyze this dataset and extract actionable insights to enhance customer satisfaction. The specific goals include:
