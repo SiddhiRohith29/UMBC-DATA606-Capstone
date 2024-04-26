@@ -6,9 +6,11 @@
 - GitHub - <a href="https://github.com/SiddhiRohith29/" target="_blank"> Siddhi GitHub </a>
 - LinkedIn - <a href="https://www.linkedin.com/in/siddhidhatri-rohith-reddy-jaggari-a4aa42183/" target="_blank"> Siddhidhatri Rohith LinkedIn </a>
 - Powerpoint Presentation - https://docs.google.com/presentation/d/1D2ZD5IGPQSVOYRwgnUr_8oNiw0O5a9qA/edit#slide=id.p1
+- Youtube Video Link - https://youtu.be/OxhX6iiS7RU
+
 ## Background
 ### Problem Statement
-The objective is to analyze this dataset and extract actionable insights to enhance customer satisfaction. The specific goals include:
+The objective is to analyze this project and extract actionable insights to enhance customer satisfaction. The specific goals include:
 
 1. Understanding the demographic distribution of customers and their travel preferences.
 2. Identifying factors influencing customer satisfaction, such as onboard service quality, cleanliness, food and drink options, in-flight entertainment, and Wi-Fi service.
@@ -16,7 +18,7 @@ The objective is to analyze this dataset and extract actionable insights to enha
 4. Assessing the relationship between satisfaction and factors like class, type of travel, and flight distance.
 
 ### Potential Real-world applications
-1. **Airline Service Improvement:** Airlines can use the insights from this dataset to enhance various aspects of their services such as onboard service quality, cleanliness, food and drink options, in-flight entertainment, and Wi-Fi service to improve overall customer satisfaction.
+1. **Airline Service Improvement:** Airlines can use the insights from this project to enhance various aspects of their services such as onboard service quality, cleanliness, food and drink options, in-flight entertainment, and Wi-Fi service to improve overall customer satisfaction.
 2. **Customer Segmentation:** Airlines can segment their customers based on demographics and travel preferences to offer personalized services and targeted marketing campaigns.
 3. **Operational Efficiency:** Understanding the impact of flight delays on customer satisfaction can help airlines optimize their flight schedules, improve punctuality, and minimize disruptions.
 4. **Marketing and Pricing Strategies:** By assessing the relationship between satisfaction and factors like class, type of travel, and flight distance, airlines can refine their marketing strategies and pricing models to attract more customers and increase revenue.
