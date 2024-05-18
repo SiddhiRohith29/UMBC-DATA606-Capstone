@@ -73,12 +73,40 @@ The objective is to analyze this project and extract actionable insights to enha
 <img src="https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/docs/newplot.png" alt="Headshot" width="250" height="250">.
 - The Target Variable is Balanced.
 
-### Model Training
+## Exploratory Data Analysis (EDA)
+
+![visual1.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/visual1.png)
+**Gender Influence on Satisfaction:**  
+Analysis shows that both genders have a similar distribution across satisfaction levels, but males are slightly more represented in both satisfied and dissatisfied categories, especially with a higher count among the neutral or dissatisfied customers.
+
+![visual2.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/visual2.png)
+**First-Time vs. Returning Customer Satisfaction:**  
+Analysis reveals that 76% of first-time customers are neutral or dissatisfied, contrasting with returning customers, where 52.2% express satisfaction. This indicates that satisfaction tends to increase with repeated travel, possibly due to adjusted expectations or improved experiences. The airline should explore strategies to enhance the first-time flyer experience to mitigate initial dissatisfaction.
+
+![visual3.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/visual3.png)
+**Impact of Flight Delays on Satisfaction:**  
+There is a positive correlation between departure and arrival delays, with flights that depart late often arriving late. Most satisfied customers experience shorter delays, supporting the expectation that timely departures and arrivals enhance satisfaction. As delays increase, dissatisfaction among passengers tends to rise.
+
+![visual4.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/visual4.png)
+**Satisfaction by Travel Type:**  
+Business travelers show higher satisfaction, with 58.4% reporting satisfaction, compared to only 10.1% of personal travelers. This stark contrast suggests that business travel experiences are more aligned with passenger expectations, while personal travel shows significant room for improvement in meeting customer needs.
+
+![visual5.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/visual5.png)
+**Age-Related Satisfaction Trends:**  
+Satisfaction peaks among passengers in their late 30s to early 40s, while younger (20s) and older passengers (60s and above) report higher levels of dissatisfaction. This indicates varying expectations across age groups, with the middle age group experiencing more favorable outcomes.
+
+![visual6.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/visual6.png)
+**In-flight Wi-Fi Satisfaction Threshold:**  
+Passengers rating the in-flight Wi-Fi service 3 or higher are more likely to be satisfied, with those rating it a perfect 5 showing the highest satisfaction levels. A rating of 3 represents a critical threshold, distinguishing between satisfactory and unsatisfactory experiences, indicating a split in passenger perceptions at this level.
+
+## Model Training
 1. Models for Predictive Analytics:
 Models used are Logistic regression, KNN, Gradient Boost, Random forest and XGboost. I have applied grid search on the best model to receive idea results.
+![overfitcheck.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/overfitcheck.png)
 
 2. Training Procedure:
 I have performed the Train vs test split for 70/30 to ensure the model learns effectively and generalizes well to new data.
+![featureselec.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/featureselec.png)
 
 3. Python Packages:
 I have primarily used python packages in project. They are Numpy, Pandas, missingno, matplotlib, plotly, seaborn and scikit-learn
@@ -90,10 +118,15 @@ The development environments are
 
 5.Performance Measures of the models
 I have evaluated performance of the model using Accuracy, Classification Report and ROC curve.
-
+![crossvalid.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/crossvalid.png)
+![hyper.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/hyper.png)
 ### Airline Satisfaction Prediction Web App Development:
+
+![pickle.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/pickle.png)
 1. **User Interface for Ratings:** The app provides a simple and intuitive interface for users to rate various aspects of an airline's service, such as cleanliness, food and drink, online boarding, in-flight WiFi service, and seat comfort on a scale from 1 to 5.
 2. **Prediction Button:** After ratings are input, there is a "Predict Satisfaction" button suggesting the app uses the given ratings to predict the level of satisfaction of a user with the airline services.
+
+![streamlit.png](https://github.com/SiddhiRohith29/UMBC-DATA606-Capstone/blob/main/data/mainimages/streamlit.png)
 3. **Satisfaction Output:** The app displays the prediction output below the button, in this case indicating that the service is "Neutral or Dissatisfied" based on the low ratings provided, which demonstrates the app's capability to process user input and deliver real-time feedback.
 
 ## Conclusion: Airline Satisfaction System
